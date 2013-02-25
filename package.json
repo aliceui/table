@@ -1,0 +1,22 @@
+{
+    "name": "table",
+    "version": "1.0.0",
+    "root": "alice",
+    "description": "通用表格组件。",
+    "homepage": "",
+    "author": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aliceui/table"
+    },
+    "bugs": {
+        "url": "https://github.com/aliceui/table/issues"
+    },
+    "license": "MIT",
+    "dependencies": {
+    },
+    "tests": ["table"],
+    "output": {
+        "table.css": "."
+    }
+}
