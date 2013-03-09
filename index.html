@@ -25,7 +25,7 @@
 <script>
   (function() {
     var data;
-    seajs._package = data = {"name":"table","version":"1.0.0","root":"alice","description":"通用表格组件。","homepage":"","author":"","repository":{"type":"git","url":"https://github.com/aliceui/table"},"bugs":{"url":"https://github.com/aliceui/table/issues"},"license":"MIT","dependencies":{},"tests":["table"],"output":{"table.css":"."}}
+    seajs._package = data = {"name":"table","version":"1.0.0","root":"alice","description":"通用表格组件。","keywords":["表格"],"homepage":"","author":"","repository":{"type":"git","url":"https://github.com/aliceui/table"},"bugs":{"url":"https://github.com/aliceui/table/issues"},"license":"MIT","dependencies":{},"tests":["table"],"output":{"table.css":"."}}
     data.dependencies && (delete data.dependencies['$'])
     data.devDependencies && (delete data.devDependencies['$'])
 
@@ -35,8 +35,12 @@
 
     // for alice
     for(var dep in data.dependencies) {
-        seajs.use(dep);
+        // 如果依赖的是样式模块
+        if (data.dependencies[dep].indexOf('.css') > 0) {
+            seajs.use(dep);
+        }
     }
+
   })();
 </script>
     <!--[if lt IE 9]>
@@ -50,7 +54,15 @@
         <h1><a href="./">Table</a><sup class="package-root"><a href="/">alice</a></sup></h1>
         <p class="version">当前版本：<a href="http://aralejs.org/docs/online-status.html#alice-table" title="点击查看此组件发布情况">1.0.0</a></p>
         <p class="description">通用表格组件。</p>
+        <p class="keywords" style="display: none;">表格</p>
         <a class="source" href="https://github.com/aliceui/table" target="_blank">View the Project</a>
+<ul id="module-output"> 
+</ul>
+<div id="output-card">
+    <h3>alice/table/1.0.0/<a target="_blank" id="output-file"></a></h3>
+    <p>这是模块的输出文件，请 require 或 seajs.use 以上 ID 来使用本文件，具体 API 请阅读文档。</p>
+</div>
+
       </aside>
       <div id="content-wrapper">
         <div id="content">
@@ -361,11 +373,11 @@
     </div>
     <div id="footer-wrapper">
       <footer>
-        <p class="powered">
-        <a href="http://aralejs.org">Arale</a> •
-        <a href="http://aliceui.org">Alice</a> •
-        <a href="https://github.com/spmjs/spm">spm</a> •
-        <a href="http://lab.lepture.com/nico/">nico</a>
+        <p class="powered"><a href="http://aralejs.org">Arale</a> •
+<a href="http://aliceui.org">Alice</a> •
+<a href="http://seajs.org">SeaJS</a> •
+<a href="https://github.com/spmjs/spm">spm</a> •
+<a href="http://lab.lepture.com/nico/">nico</a>
         </p>
       </footer>
     </div>
