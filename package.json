@@ -1,7 +1,7 @@
 {
     "name": "table",
     "version": "1.0.0",
-    "root": "alice",
+    "family": "alice",
     "description": "通用表格组件。",
     "keywords": [
         "表格"
@@ -16,10 +16,9 @@
         "url": "https://github.com/aliceui/table/issues"
     },
     "license": "MIT",
-    "dependencies": {
-    },
-    "tests": ["table"],
-    "output": {
-        "table.css": "."
+    "spm": {
+        "alias": {
+        },
+        "output": ["table.css"]
     }
 }

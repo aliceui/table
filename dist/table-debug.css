@@ -1,5 +1,4 @@
-
-/** alice/table/1.0.0/table.css **/
+/*! define alice/table/1.0.0/table-debug.css */
 /* alice.table 样式模块 */
 
 @charset "utf-8";
@@ -65,4 +64,3 @@
     border:none;
     outline:none;
 }
-
