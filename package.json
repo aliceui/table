@@ -1,6 +1,6 @@
 {
     "name": "table",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "family": "alice",
     "description": "通用表格组件。",
     "keywords": [

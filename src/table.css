@@ -42,12 +42,6 @@
 .ui-table tfoot td {
     border-bottom:none;
 }
-.ui-table .ui-table-action {
-    background-color:#FFFFEF;
-}
-.ui-table .ui-table-selected {
-    background-color:#FEFFC5;
-}
 
 /* 无边框table加上ui-table-noborder */
 .ui-table-noborder, .ui-table-noborder td, .ui-table-noborder tr, .ui-table-noborder th {

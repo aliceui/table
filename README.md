@@ -33,7 +33,7 @@
                 <td>Data</td>
                 <td>Data</td>
                 <td>Data</td>
-                <td class="ui-table-action ui-table-selected">Data</td>
+                <td>Data</td>
                 <td>Data</td>
             </tr>
             <tr class="ui-table-split">
@@ -42,7 +42,7 @@
                 <td>Data</td>
                 <td>Data</td>
                 <td>Data</td>
-                <td class="ui-table-action">Data</td>
+                <td>Data</td>
                 <td>Data</td>
             </tr>
             <tr>
@@ -51,7 +51,7 @@
                 <td>Data</td>
                 <td>Data</td>
                 <td>Data</td>
-                <td class="ui-table-action">Data</td>
+                <td>Data</td>
                 <td>Data</td>
             </tr>
             <tr class="ui-table-split">
@@ -60,7 +60,7 @@
                 <td>Data</td>
                 <td>Data</td>
                 <td>Data</td>
-                <td class="ui-table-action">Data</td>
+                <td>Data</td>
                 <td>Data</td>
             </tr>
             <tr>
@@ -69,7 +69,7 @@
                 <td>Data</td>
                 <td>Data</td>
                 <td>Data</td>
-                <td class="ui-table-action">Data</td>
+                <td>Data</td>
                 <td>Data</td>
             </tr>
         </tbody>

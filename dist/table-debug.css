@@ -1,4 +1,4 @@
-/*! define alice/table/1.0.0/table-debug.css */
+/*! define alice/table/1.0.1/table-debug.css */
 /* alice.table 样式模块 */
 
 .ui-table {
@@ -42,12 +42,6 @@
 }
 .ui-table tfoot td {
     border-bottom:none;
-}
-.ui-table .ui-table-action {
-    background-color:#FFFFEF;
-}
-.ui-table .ui-table-selected {
-    background-color:#FEFFC5;
 }
 
 /* 无边框table加上ui-table-noborder */
