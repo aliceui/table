@@ -166,3 +166,63 @@
     </table>
 </div>
 ````
+
+### 固定布局（不按表格内容设定列宽）
+
+> .ui-table-layout-fixed
+
+````html
+<table class="ui-table ui-table-layout-fixed">
+    <thead>
+        <tr>
+            <th width="10%">创建时间</th>
+            <th width="20%">名称<em class="ft-bar">|</em>交易号</th>
+            <th width="20%">对方</th>
+            <th width="10%">金额<em class="ft-bar">|</em>明细</th>
+            <th width="10%">状态</th>
+            <th width="20%">操作</th>
+            <th width="10%">备注</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>looooooooooooooooooong data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+        </tr>
+    </tbody>
+</table>
+````
+
+非固定布局第一列就被撑宽了。
+
+````html
+<table class="ui-table">
+    <thead>
+        <tr>
+            <th width="10%">创建时间</th>
+            <th width="20%">名称<em class="ft-bar">|</em>交易号</th>
+            <th width="20%">对方</th>
+            <th width="10%">金额<em class="ft-bar">|</em>明细</th>
+            <th width="10%">状态</th>
+            <th width="20%">操作</th>
+            <th width="10%">备注</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>looooooooooooooooooong data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+        </tr>
+    </tbody>
+</table>
+````
