@@ -5,11 +5,14 @@
     border:1px solid #ccc;
     width:100%;
     font-size: 12px;
-    text-align: left;    
+    text-align: left;
+}
+.ui-table-layout-fixed {
+  table-layout:fixed;
 }
 .ui-table tr:nth-child(even),
 .ui-table-split /* 隔行换色效果 */,
-.ui-table-hover /* 用作表格行hover效果 */ {    
+.ui-table-hover /* 用作表格行hover效果 */ {
     background-color:#FBFBFB;
 }
 .ui-table tr {
@@ -20,7 +23,7 @@
 }
 .ui-table thead {
     color:#666;
-    background-color: #F6F6F6;    
+    background-color: #F6F6F6;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F8F8F8', endColorstr='#F2F2F2');
     background: -webkit-gradient(linear, left top, left bottom, from(#F8F8F8), to(#F2F2F2));
     background: -moz-linear-gradient(top, #F8F8F8, #F2F2F2);
@@ -30,7 +33,7 @@
 .ui-table th {
     padding:7px 9px;
     border-bottom:1px solid #d9d9d9;
-    text-align: left;    
+    text-align: left;
 }
 .ui-table td {
     padding:8px 9px 7px;
