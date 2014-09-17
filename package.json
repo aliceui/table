@@ -1,7 +1,6 @@
 {
-    "name": "table",
-    "version": "1.1.0",
-    "family": "alice",
+    "name": "alice-table",
+    "version": "1.2.0",
     "description": "通用表格组件。",
     "keywords": [
         "表格"
@@ -17,8 +16,6 @@
     },
     "license": "MIT",
     "spm": {
-        "alias": {
-        },
-        "output": ["table.css"]
+        "main": "index.css"
     }
 }
