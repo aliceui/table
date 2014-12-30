@@ -8,7 +8,7 @@
 
 ## 演示文档
 
-<link type="text/css" rel="stylesheet" media="screen" href="src/table.css">
+<link type="text/css" rel="stylesheet" media="screen" href="index.css">
 
 ### 正常表格
 
